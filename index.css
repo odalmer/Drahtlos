@@ -57,10 +57,12 @@ footer {
     grid-template: "navbar"auto "header" auto "section" auto "aside"auto "footer" auto / auto;
 }
 
+
+
 /* headers =========================================== */
 
 .headerInicio {
-    background: url('https://bogota.gov.co/sites/default/files/styles/1050px/public/eventos/2020-09/velaton.jpg') center no-repeat;
+    background: url('https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/scented-candles-royalty-free-image-174665543-1545841544.jpg?crop=1xw:0.75141xh;center,top&resize=1200:*') bottom no-repeat;
     background-size: cover;
 }
 
@@ -81,6 +83,11 @@ footer {
 
 .headerResenas {
     background: url('https://rockcontent.com/es/wp-content/uploads/2019/03/tipos-de-clientes-1280x720.png') center no-repeat;
+    background-size: cover;
+}
+
+.headerPortafolio {
+    background: url('https://cdn.pixabay.com/photo/2014/12/15/17/18/home-office-569359_960_720.jpg') center no-repeat;
     background-size: cover;
 }
 
@@ -207,6 +214,11 @@ nav ul li ul li a {
     .brand a img {
         max-height: 60px;
         margin-top: 5px;
+    }
+
+    iframe{
+        width: 100%;
+        height: 190px;
     }
 }
 
@@ -352,10 +364,11 @@ h2 {
     margin: auto;
 }
 
-.SobreImgs{
+.SobreImgs {
     width: 80%;
     margin: auto;
 }
+
 .article-SobreNosotros ul {
     list-style: none;
 }
@@ -374,7 +387,7 @@ h2 {
     font-size: 20px;
 }
 
-.SobreNoText li{
+.SobreNoText li {
     text-align: center;
 }
 
